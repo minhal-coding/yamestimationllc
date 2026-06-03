@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | YAM Estimation Commercial Painting</title>
+    <meta name="description" content="Send YAM Estimation LLC a commercial painting bid invite." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="YAM Estimation home">
+        <img src="assets/yam-mark-gold-transparent.png" alt="YAM Estimation" />
+        <span><strong>YAM Estimation LLC</strong><small>Commercial Painting Contractor</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="process.html">Work Process</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="contact-page">
+        <div class="contact-intro">
+          <p class="eyebrow">Contact</p>
+          <h1>Send your painting bid invite.</h1>
+          <p>Share the project name, location, bid due date, plan link, scope notes, and any special access or schedule requirements.</p>
+          <div class="contact-direct">
+            <p><strong>Phone</strong><br /><a href="tel:+15713689413">571-368-9413</a><br /><a href="tel:+19177155996">917-715-5996</a></p>
+            <p><strong>Office</strong><br />515 N. Sam Houston Pkwy E, Suite 515-240<br />Houston, TX 77060</p>
+            <p><strong>Estimating Services</strong><br /><a href="https://yamestimation.com/" target="_blank" rel="noopener">yamestimation.com</a></p>
+          </div>
+        </div>
+        <form class="contact-form" action="mailto:info@yamestimation.com" method="post" enctype="text/plain">
+          <label>Name<input name="name" type="text" autocomplete="name" /></label>
+          <label>Company<input name="company" type="text" autocomplete="organization" /></label>
+          <label>Email<input name="email" type="email" autocomplete="email" /></label>
+          <label>Project City<input name="city" type="text" /></label>
+          <label>Bid Due Date<input name="due-date" type="text" placeholder="Month / day / time" /></label>
+          <label>Plan Link<input name="plan-link" type="text" /></label>
+          <label class="full">Project Details<textarea name="project" rows="6" placeholder="Painting scope, interior/exterior, surfaces, schedule, access, and special notes"></textarea></label>
+          <button class="btn btn-primary full" type="submit">Send Bid Invite</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> YAM Estimation LLC. Commercial painting contractor services.</p>
+      <a href="index.html">Back Home</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
