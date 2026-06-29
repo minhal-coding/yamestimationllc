@@ -26,18 +26,42 @@
     <main>
       <section class="home-hero">
         <div class="hero-bg"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
         <div class="hero-shade"></div>
         <div class="home-hero-content">
-          <p class="eyebrow">Commercial Painting Contractor</p>
-          <h1>Clean finishes. Clear bids. Controlled commercial painting.</h1>
-          <p>
-            YAM Estimation LLC helps general contractors and commercial clients take painting scopes from bid invite to finished work with organized pricing, practical planning, and professional project delivery.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="contact.html">Request Proposal</a>
-            <a class="btn btn-estimate" href="https://yamestimation.com/" target="_blank" rel="noopener">Get Estimate</a>
-            <a class="btn btn-glass" href="services.html">Explore Services</a>
+          <div class="hero-copy">
+            <p class="eyebrow">Commercial Painting Contractor</p>
+            <h1>Clean finishes. Clear bids. Controlled commercial painting.</h1>
+            <p>
+              YAM Estimation LLC helps general contractors and commercial clients take painting scopes from bid invite to finished work with organized pricing, practical planning, and professional project delivery.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="contact.html">Request Proposal</a>
+              <a class="btn btn-estimate" href="https://yamestimation.com/" target="_blank" rel="noopener">Get Estimate</a>
+              <a class="btn btn-glass" href="services.html">Explore Services</a>
+            </div>
           </div>
+          <aside class="scope-card" aria-label="Project readiness checklist">
+            <div class="scope-card-top">
+              <span class="scope-icon" aria-hidden="true"></span>
+              <p><strong>Bid scope status</strong><small>Commercial painting package</small></p>
+            </div>
+            <ul>
+              <li style="--progress: 88%">
+                <span>Scope reviewed</span>
+                <i></i>
+              </li>
+              <li style="--progress: 74%">
+                <span>Finish schedule</span>
+                <i></i>
+              </li>
+              <li style="--progress: 92%">
+                <span>Bid ready</span>
+                <i></i>
+              </li>
+            </ul>
+          </aside>
+          <a class="scroll-cue" href="#services-preview" aria-label="Scroll to services"></a>
         </div>
       </section>
 
@@ -45,7 +69,7 @@
         <p>Painting is often treated like the easy scope. We treat it like the finish everyone sees.</p>
       </section>
 
-      <section class="home-services">
+      <section id="services-preview" class="home-services">
         <div class="section-kicker">
           <p class="eyebrow">What We Do</p>
           <h2>Focused painting services, built for commercial schedules.</h2>
